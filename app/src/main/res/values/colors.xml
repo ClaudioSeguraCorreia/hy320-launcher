@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cor enquanto o papel de parede carrega -->
+    <color name="bg">#FF0A0F24</color>
+</resources>

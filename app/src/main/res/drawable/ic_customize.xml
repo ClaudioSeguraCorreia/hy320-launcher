@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Três controles deslizantes -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="2" android:strokeLineCap="round"
+        android:pathData="M4,6h16 M4,12h16 M4,18h16" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M9,3.5a2.5,2.5 0 1,0 0.01,0z M15,9.5a2.5,2.5 0 1,0 0.01,0z M7,15.5a2.5,2.5 0 1,0 0.01,0z" />
+</vector>

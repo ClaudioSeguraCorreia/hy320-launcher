@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Barra superior: cápsula com hora e data, e botões redondos do sistema -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="9dp"
+    android:layout_marginEnd="9dp"
+    android:layout_marginBottom="6dp"
+    android:clipChildren="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <dev.hy320.launcher.glass.GlassLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="22dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="22dp"
+        android:paddingBottom="6dp"
+        app:glassPill="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextClock
+                android:id="@+id/time"
+                style="@style/GlassText"
+                android:format12Hour="HH:mm"
+                android:format24Hour="HH:mm"
+                android:textSize="28sp" />
+
+            <TextClock
+                android:id="@+id/date"
+                style="@style/GlassText.Secondary"
+                android:layout_marginStart="14dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </dev.hy320.launcher.glass.GlassLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+
+    <!-- Nome do botão focado -->
+    <TextView
+        android:id="@+id/hint"
+        style="@style/GlassText.Secondary"
+        android:layout_marginEnd="6dp"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:orientation="horizontal" />
+</LinearLayout>

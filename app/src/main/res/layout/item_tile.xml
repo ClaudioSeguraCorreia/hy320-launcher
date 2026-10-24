@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bloco de app: vidro + arte original do app com acabamento de vidro -->
+<dev.hy320.launcher.glass.GlassTile xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="9dp"
+    android:padding="7dp"
+    app:glassRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/iconFrame"
+            android:layout_width="match_parent"
+            android:layout_height="84dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:importantForAccessibility="no" />
+
+            <!-- Brilho de vidro sobre a arte do app -->
+            <View
+                android:id="@+id/gloss"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_gloss" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/label"
+            style="@style/GlassText"
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="1dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="13sp" />
+    </LinearLayout>
+</dev.hy320.launcher.glass.GlassTile>

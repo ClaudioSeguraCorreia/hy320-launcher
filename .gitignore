@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.claude/settings.local.json
+
+# Assinatura e anotações pessoais: nunca publicar
+keystore.properties
+*.jks
+*.keystore
+REGISTRO.md
+/dist/
+scripts/alteracoes.txt

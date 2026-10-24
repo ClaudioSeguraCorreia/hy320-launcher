@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Filtra teclas e recebe apenas avisos de foco/seleção/rolagem e troca de janela.
+     Não lê o conteúdo das janelas (canRetrieveWindowContent=false). -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/filter_description"
+    android:accessibilityEventTypes="typeViewFocused|typeViewSelected|typeViewScrolled|typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagRequestFilterKeyEvents"
+    android:canRequestFilterKeyEvents="true"
+    android:canRetrieveWindowContent="false"
+    android:notificationTimeout="0" />

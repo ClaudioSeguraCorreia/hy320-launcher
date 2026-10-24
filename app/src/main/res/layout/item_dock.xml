@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Prateleira de vidro (Favoritos, Recentes): uma linha horizontal de apps -->
+<dev.hy320.launcher.glass.GlassLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="9dp"
+    android:clipChildren="false"
+    android:paddingStart="8dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="6dp"
+    app:glassRadius="28dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/shelfTitle"
+            style="@style/GlassText.Secondary"
+            android:layout_marginStart="12dp"
+            android:textSize="15sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dockList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+
+        <TextView
+            android:id="@+id/empty"
+            style="@style/GlassText.Secondary"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="@string/dock_empty"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</dev.hy320.launcher.glass.GlassLayout>

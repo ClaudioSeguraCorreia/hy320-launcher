@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GlassLayout">
+        <!-- Raio dos cantos do vidro -->
+        <attr name="glassRadius" format="dimension" />
+        <!-- Cantos totalmente redondos (cápsula ou círculo) -->
+        <attr name="glassPill" format="boolean" />
+    </declare-styleable>
+</resources>

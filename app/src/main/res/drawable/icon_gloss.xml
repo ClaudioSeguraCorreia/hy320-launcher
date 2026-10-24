@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reflexo diagonal suave: claro no alto à esquerda, some no meio -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="315"
+        android:centerColor="#00FFFFFF"
+        android:centerX="0.45"
+        android:centerY="0.45"
+        android:endColor="#00FFFFFF"
+        android:startColor="#38FFFFFF"
+        android:type="linear" />
+</shape>

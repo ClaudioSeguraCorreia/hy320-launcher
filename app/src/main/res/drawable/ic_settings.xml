@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Engrenagem simplificada: anel + 8 dentes -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="2" android:strokeLineCap="round"
+        android:pathData="M12,2.5v3 M12,18.5v3 M2.5,12h3 M18.5,12h3 M5.3,5.3l2.1,2.1 M16.6,16.6l2.1,2.1 M5.3,18.7l2.1,-2.1 M16.6,7.4l2.1,-2.1" />
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="2"
+        android:pathData="M12,6.5a5.5,5.5 0 1,0 0.01,0z" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M12,10a2,2 0 1,0 0.01,0z" />
+</vector>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Início</string>
+    <string name="open_failed">Não foi possível abrir %1$s</string>
+
+    <!-- Seções -->
+    <string name="section_favorites">Favoritos</string>
+    <string name="section_recents">Recentes</string>
+    <string name="section_apps">Aplicativos</string>
+    <string name="dock_empty">Segure OK em um app (ou aperte Menu) e escolha \"Adicionar aos favoritos\"</string>
+
+    <!-- Atalhos -->
+    <string name="settings">Configurações</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="inputs">Entradas</string>
+    <string name="customize">Personalizar</string>
+
+    <!-- Opções do app -->
+    <string name="opt_add_favorite">Adicionar aos favoritos</string>
+    <string name="opt_remove_favorite">Remover dos favoritos</string>
+    <string name="opt_move_left">Mover para a esquerda</string>
+    <string name="opt_move_right">Mover para a direita</string>
+    <string name="opt_hide">Ocultar</string>
+    <string name="opt_app_info">Informações do app</string>
+    <string name="hidden_toast">%1$s oculto. Para mostrar de novo: Personalizar → Apps ocultos</string>
+
+    <!-- Personalizar -->
+    <string name="set_theme">Tema</string>
+    <string name="images_off">Nenhuma (fundo do tema)</string>
+    <string name="set_transparency">Transparência</string>
+    <string name="set_blur">Desfoque</string>
+    <string name="set_reflections">Reflexos</string>
+    <string name="set_animations">Animações</string>
+    <string name="set_accent">Cor de destaque</string>
+    <string name="set_light_mode">Modo leve</string>
+    <string name="set_icon_size">Tamanho dos ícones</string>
+    <string name="size_large">Grande</string>
+    <string name="size_medium">Médio</string>
+    <string name="size_small">Pequeno</string>
+    <string name="size_minimum">Mínimo</string>
+    <string name="set_show_favorites">Mostrar Favoritos</string>
+    <string name="set_show_recents">Mostrar Recentes</string>
+    <string name="set_filter">Filtro do controle</string>
+    <string name="set_hidden">Apps ocultos</string>
+    <string name="set_own_images">Imagens próprias</string>
+    <string name="set_about">Sobre</string>
+
+    <string name="level_low">Baixo</string>
+    <string name="level_medium">Médio</string>
+    <string name="level_high">Alto</string>
+    <string name="refl_off">Desligados</string>
+    <string name="refl_soft">Suaves</string>
+    <string name="refl_strong">Intensos</string>
+    <string name="anim_off">Desligadas</string>
+    <string name="anim_reduced">Reduzidas</string>
+    <string name="anim_full">Completas</string>
+    <string name="off">Desligado</string>
+    <string name="on">Ligado</string>
+
+    <string name="hidden_none">Nenhum app oculto</string>
+    <string name="hidden_show">Mostrar %1$s</string>
+    <string name="images_help">\?   Como adicionar imagens</string>
+    <string name="images_help_title">Como adicionar imagens</string>
+    <string name="images_help_1">Copie imagens JPG ou PNG para a pasta Pictures/Wallpapers do projetor.</string>
+    <string name="images_help_usb">Ou crie uma pasta \"Wallpapers\" no pendrive: ao conectá-lo, as imagens novas são copiadas sozinhas.</string>
+    <string name="images_none">Nenhuma imagem própria ainda</string>
+    <string name="images_imported">%1$d imagem(ns) nova(s) copiada(s) do pendrive. Veja em Personalizar → Imagens próprias</string>
+    <string name="images_permission">Permitir leitura das imagens</string>
+    <string name="about_version">Versão %1$s</string>
+    <string name="about_author">Criado por Claudio Segura Psicologia e Tecnologia Ltda</string>
+    <string name="about_made_with">Feito com Claude Opus 5.5</string>
+    <string name="about_filter">Filtro do controle: %1$s</string>
+    <string name="filter_on">ativo</string>
+    <string name="filter_off">desligado</string>
+    <string name="back">Voltar</string>
+
+    <!-- Filtro do controle (serviço de acessibilidade) -->
+    <string name="filter_name">Filtro do controle (Início)</string>
+    <string name="filter_description">Descarta setas do controle remoto que chegam atrasadas quando o sistema trava, evitando que o cursor dispare vários itens. Só observa as teclas do controle; não lê o conteúdo da tela.</string>
+</resources>
